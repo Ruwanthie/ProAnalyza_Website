@@ -1,0 +1,109 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>ProAnalyza - Documents & Past Presentations</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <link rel="stylesheet" type="text/css" href="style/style.css" />
+  <style>
+	.download ul
+	{ width: 400px; 
+	  padding-top: 4px; 
+	  margin: 4px 0px 30px 0px;}
+
+	.download li
+	{ list-style: none; 
+	  padding: 0px 0px 2px 0px;
+	  font-size: 14px;
+	  }
+
+	.download li a, .download li a:hover
+	{ text-decoration: none; 
+	  padding: 4px 0px 4px 35px;
+	  display: block;
+	  background: transparent url(style/arrow.png) no-repeat left center;
+	  color: #555;
+	  border: none;} 
+
+	.download li a.selected, .download li a:hover, .download li a.selected:hover
+	{ color: #A4AA04;}
+  </style>
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1><a href="index.html">Pro<span class="logo_colour">ANALYZA</span></a></h1>
+          <h2>Program Analysis Tool</h2>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+          <li><a href="home.html">Home</a></li>
+          <li><a href="domain.html">Domain</a></li>
+		  <li><a href="milestone.html">Milestones</a></li>
+		  <li  class="selected"><a href="document.html">Documents & Past Presentations</a></li>
+		  <li><a href="about.html">About Us</a></li>
+		  <li><a href="contact.html">Contact </a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="content_header"></div>
+    <div id="site_content">
+      <div class="sidebar">
+        
+        <h3>Search</h3>
+        <form method="post" action="#" id="search_form">
+          <p>
+            <input class="search" type="text" name="search_field" value="Enter keywords....." />
+            <input name="search" type="image" style="border: 0; margin: 0 0 -9px 5px;" src="style/search.png" alt="Search" title="Search" />
+          </p>
+        </form>
+		<img src="style/presentation.jpg" height="400" width="250">
+      </div>
+      <div id="content">
+        <!-- insert the page content here -->
+        <h1>DOCUMENTS</h1>
+		<div class="download">
+		 <ul>
+          <li><a href="documents/18-055_ProjectProposal.pdf ">Project Proposal Document</a></li>
+		  <li><a href="documents/IT15112538_SRS.pdf ">SRS Document - IT15112538</a></li>
+		  <li><a href="documents/IT15113900_SRS.pdf ">SRS Document - IT15113900</a></li>
+		  <li><a href="documents/ ">SRS Document - IT15413802</a></li>
+		  <li><a href="documents/ ">SRS Document - IT15111548</a></li>
+		  <li><a href="documents/ ">SRS Document - Group (18-055)</a></li>
+          <li><a href="#">Final Report - IT15112538</a></li>
+		  <li><a href="#">Final Report - IT15113900</a></li>
+		  <li><a href="#">Final Report - IT15413802</a></li>
+		  <li><a href="#">Final Report - IT15111548</a></li>
+          <li><a href="#">Final Report - Group (18-055)</a></li>
+		  <li><a href="#">Research Paper</a></li>
+        </ul>
+		
+		</div>
+        
+        <h1>PAST PRESENTATIONS</h1>
+		<div class="download">
+        <ul>
+          <li><a href="documents/Project_Proposal_Presentation_18-055.pdf ">Project Proposal Presentation</a></li>
+		  <li><a href="documents/ ">Progress Presentation - I</a></li>
+		  <li><a href="documents/Progress_Presentation_II_18-055.pdf ">Progress Presentation - II</a></li>
+		  <li><a href="documents/ ">Final Presentation</a></li>
+        </ul>
+		</div>
+      </div>
+    </div>
+    <div id="content_footer"></div>
+    <div id="footer">
+      <p><a href="home.html">Home</a> | <a href="domain.html">Domain</a> | <a href="milestone.html">Milestones</a> | <a href="document.html">Documents & Past Presentations</a> | <a href="about.html">About Us</a> | <a href="contact.html">Contact </a></p>
+      <p>Copyright &copy; SLIIT 18-055</p>
+    </div>
+  </div>
+</body>
+</html>
